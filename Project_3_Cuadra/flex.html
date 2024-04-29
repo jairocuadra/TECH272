@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Architect Walter Gropius</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Walter Gropius was an architect who founded the Bauhaus, a revolutionary design school in Germany from
+        1919&ndash;1932."
+    />
+    <link rel-"stylesheet" href-"css/normalize.css">
+    <style>
+       {
+        outline: 1px solid red;
+      }
+
+      /** STRUCTURE **/
+      #wrap {
+        padding: 40px;
+      }
+      figure {
+        margin: 0;
+      }
+      section {
+        padding: 20px;
+        background-color: orange;
+        width: 42.5%;
+      }
+      .yellow {
+        background-color: lightyellow;
+      }
+      .flex-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 2.5%;
+      }
+      img {
+        width: 100%;
+      }
+      figcaption {
+        font-style: italic;
+      }
+      .programs {
+        gap: 18;
+      }
+      .programs p {
+        font-weight: bold;
+        font-size: 20px;
+        background-color: #a9dbeb;
+        padding: 10px 20px;
+        border-radius: 9px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="wrap" class="flex-container">
+      <section id="biography">
+        <h3>Biography</h3>
+        <figure class="fr200">
+          <img
+            src="images/WalterGropius-1919x200.jpg"
+            alt="Image of Walter Gropius, BaW, finger to forehead, thinking, he's old"
+          />
+          <figcaption>
+            <p>Walter Gropius</p>
+          </figcaption>
+        </figure>
+        <p>
+          Walter Gropius, like his father and his great-uncle Martin Gropius
+          before him, studied to become an architect. Gropius could not draw,
+          and was dependent on collaborators and partner-interpreters throughout
+          his career. In school, he hired an assistant to complete his homework
+          for him. In <time datetime="1908">1908</time>, after studying
+          architecture in Munich and Berlin for four semesters, Gropius joined
+          the office of the renowned architect and industrial designer Peter
+          Behrens, one of the first members of the utilitarian school. His
+          fellow employees at this time included Ludwig Mies van der Rohe and Le
+          Corbusier.
+        </p>
+      </section>
+      <!-- closes biography -->
+      <section>
+        <h3>Early Career</h3>
+        <figure>
+          <img
+            src="images/Bauhausx300.jpg"
+            alt="Bauhaus building with curtain glass walls"
+          />
+          <figcaption>
+            <p>Bauhaus main building, Weimar, Germany</p>
+          </figcaption>
+        </figure>
+        <p>
+          In <time datetime="1910">1910</time> Gropius left the firm of Behrens
+          and together with fellow employee Adolf Meyer established a practice
+          in Berlin. Together they share credit for one of the seminal modernist
+          buildings created during this period: the Faguswerk in
+          Alfeld-an-der-Leine, Germany, a shoe last factory. Although Gropius
+          and Meyer only designed the facade, the glass curtain walls of this
+          building demonstrated both the modernist principle that form reflects
+          function and Gropius&rsquo;s concern with providing healthful
+          conditions for the working class. The factory is now regarded as one
+          of the crucial founding monuments of European modernism.
+        </p>
+      </section>
+      <!-- closes biography -->
+    </div>
+    <!-- closes wrap -->
+    <div class="flex-container yellow programs">
+      <p>Illustrator</p>
+      <p>InDesign</p>
+      <p>Photoshop</p>
+      <p>Premier</p>
+      <p>MS Word</p>
+      <p>Excel</p>
+      <p>Figma</p>
+    </div>
+  </body>
+</html>
